@@ -7,25 +7,34 @@ let score = "33abc"
 
 let valueInNumber = Number(score);
 // console.log(typeof valueInNumber)
-//but here it a  case iin which score has alnum
-// console.log(valueInNumber);
+//but here it a  case in which score has alnum 
+//eg - score = 33abc
+// than Number can try to  work to convert it to number datatype which is problem is js to solve this we study typescript
+// console.log(valueInNumber); not it return NaN 
 
-//  Some key points regarding conversion
+//  Some key points regarding conversion expllicitly using number
 //"33" =>33    , type - number
-//"33abs"=> NaN type - number
-//undefiined =>NaN   - type  - Number
+//"33abs"=> NaN but its type is number yehh this is confusing we know similarly 
+//undefined =>NaN   - type  - Number
 
+
+//is we explicitely use Boolean
 let isloggedIn = 1;
 let booleanisLoggedIn = Boolean(isloggedIn);
 // console.log(booleanisLoggedIn);
 // 1 = > true , 0=>false
 // "" = >false
 // "mohit"=>true
+//null - 0
+//undefined - Nan
+// string - Nan
+
+// explicitly in string 
 
 let somenumber = 343
 let stringNumber = String(somenumber)
-// console.log(stringNumber)
-// console.log(typeof stringNumber);
+// console.log(stringNumber)  -343
+// console.log(typeof stringNumber);  -  string  
 
 
 // Operations 

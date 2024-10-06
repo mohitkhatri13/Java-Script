@@ -25,6 +25,8 @@ let userEmail; //undefined
 const id = Symbol('123')
 const anotherid= Symbol('123')
 console.log(id ===anotherid)  //not same
+//Symbol('123') creates a new unique symbol each time it is called, so id and anotherid are different symbols, even though they share the same description.
+//As a result, id === anotherid evaluates to false.
 
 // const bigNumber = 4235872348694769n
 // this automatically store in bigIng behind the scenes

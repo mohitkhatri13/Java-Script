@@ -14,7 +14,7 @@
 
 // object
 
-console.log(typeof undefined);
+console.log(typeof undefined); // datatypes of undefined is undefined 
 console.log(typeof null);  // null is the object 
 
 
