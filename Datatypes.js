@@ -1,7 +1,7 @@
-// depend on how the data store in memory the datatypes are categorised  in two category
+// depend on how the data store in memory and accessed  the datatypes are categorised  in two category
 
 // primitives  or non reference types
-//  means rhey are call by value which refers wehn we call these value from mrmory we receive copy of these not value which references to same memory
+//  means rhey are call by value which refers wehn we call these value from memory we receive copy of these not value which references to same memory
 //  String , NULL , Number , Boolean , Undefined
 //Symbol - kisi bhi value ko unique banane ke liye symbol banane ke liye eg in frontend if we want to make any component or button unique
 //BigInt - for large values
@@ -113,7 +113,7 @@ lets talk about some Range of Primitive DataType:
 
             // their datatypes
             // Null - Object
-            // function - fucntion but we said it as objeect function
+            // function - function but we said it as object function
 
             // object - function
     console.log(typeof myfunction)

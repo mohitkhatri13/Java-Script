@@ -45,17 +45,22 @@ let str2 = " hitesh"
 let str3= str1 + str2
 console.log(str3)
 
-console.log("1" +2);
-console.log("1" + 2 + 2);
+console.log("1" +2); //12
+console.log(1 +"2"); //12
+console.log("1" + 2 + 2); // 122
 // if string is first tham all things converted to things
-console.log(1 + 2 + "2");
-// if num is first tham all things converted to things
+console.log(1 + 2 + "2"); // 32
+// here first addition occur  
+//these work on guidelines which is writtem im ecma script 
 // for see how to work read ecma documentation
 
 //  not good practices
-// console.log(+true);
-// console.log(true+)l
-// console.log(+false)
+// console.log(+true); // 1
+// console.log(true+) // error
+//console.log(+"")//0
+// console.log(+false) // 0
+
+
 
 
  

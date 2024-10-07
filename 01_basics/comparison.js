@@ -20,6 +20,8 @@ console.log(undefined==0);
 console.log(undefined>=0);
 // but in case of undefined it return false everytime
 
+// == by using this this operator convert the datatype of one value to another 
+
 // strict check ===
 // it also check the datatype with the value
 console.log("2"===2);
