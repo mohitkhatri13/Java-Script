@@ -38,7 +38,7 @@ const chai2 = ()=>{
 }
 chai2();
 
-// the differnence between arrow function and normal function is the current context of the arrow function is empthy object and for normal function is many values.
+// the differnence between arrow function and normal function is the current context of the arrow function is empty object and for normal function is many values.
 
 
 // m1- of declaring arrow fxn

@@ -8,7 +8,7 @@
     console.log("db connected");
 })();
 
-// arrow fxn syntax - unnamed ife
+// arrow fxn syntax - unnamed iife
 ((name)=>{
     console.log(`db connected2 ${name}` );
 })("mohit");
