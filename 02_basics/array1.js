@@ -39,6 +39,7 @@ console.log(newarr2);
 
 // slice return the part of the array which we want and not manipulate the original array
 // splice also do the same but  changes also reflect in original array 
+ 
 
 
 
