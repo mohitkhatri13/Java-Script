@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: white;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+       <script>
+       const paren= document.querySelector('.parent')
+       console.log(paren);
+       console.log(paren.children);
+ 
+        for(let i =0 ; i< paren.children.length ; i++){
+            console.log(paren.children[i].innerHTML)}
+
+    const dayone = document.querySelector('.day');
+    console.log(dayone)
+    console.log(dayone.parentElement);
+    console.log(dayone.nextElementSibling)
+    console.log("NODES :", paren.childNodes) // give complete tree - structure of the html 
+
+    </script>
+</body>  
+</html>
