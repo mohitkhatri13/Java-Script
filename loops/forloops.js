@@ -44,7 +44,7 @@ for( let k in arr2){
 
 
 
-// FOR Each loops- these are hogher order loops 
+// FOR Each loops- these are higher order loops 
 // higher order refers to a function pass from it 
 
 const lang = ["cpp" ,"python" , "java" , "react"];

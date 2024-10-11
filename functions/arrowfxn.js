@@ -63,6 +63,9 @@ const objectreturn = ()=> ({username:"mohit"})
 
 console.log(objectreturn());
 
+// curly braces me return krna padta hai kyu?
+//  because we started a new scope by using curly braces
+
 
 
 
