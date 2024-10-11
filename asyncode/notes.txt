@@ -1,0 +1,19 @@
+1. javaScript is a synchronous language and single threaded langauage it is default js behaviour  
+2. yes due to single threaded js is slow but js engine not be avaiable alone 
+it always with with some run time environment like browsers , node.js 
+
+
+3.Global Execution Context 
+each operation waits for the last one to complete vefore Execution
+
+4.BLocking code and non blocking code
+
+Blocking Code - it block the flow of the programm  e.g - Reead File Synchronous
+Non Blocking  it not block the further execution of the programm  e.g - read file asynchronous (baaki ka kaam krie or aap apna kaam kare )
+
+Both are best according to sue case 
+for registering a user blocking code is useful 
+
+// note - fetch ke liye jo queue hoti ahi vo thodi high priority hoti hai 
+par vo ye kehti hai jab kaam ho bata dena par kaam hone ke baad high priority hoti hai 
+
