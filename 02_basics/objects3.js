@@ -1,5 +1,4 @@
 // destructuring of objects
-
 const course = {
     name:"jsinhindi",
     price:"999",
@@ -8,7 +7,6 @@ const course = {
 
 const {instructor:ins} = course
 console.log(ins);
-
 //json data
 //  {
 //     "name":"mohit",
