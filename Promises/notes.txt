@@ -1,0 +1,31 @@
+1. Promises - the promises objects represents the
+ eventual completion or failure of 
+an asynchronous operation and its resulting value.
+
+A promise is three state 
+1. Pending
+2. Fullfilled
+3.Rejected
+
+
+// pros and cons of then , catch and async or await 
+
+1.then and catch 
+Pros:
+
+Flexible Chaining: You can easily chain multiple asynchronous operations.
+Error Handling per Step: You can attach multiple .catch() statements in between, handling errors at different stages.
+Cons:
+
+Nested and Hard to Read: As the number of chained promises grows, the code can get messy and harder to follow (commonly referred to as "callback hell").
+Error Propagation: If an error occurs early in the chain, it will propagate down unless explicitly handled at each step.
+
+
+Catch 
+pros:
+
+Cleaner & Readable: The code looks synchronous, making it easier to follow, especially when handling complex async logic.
+Sequential Flow: You can read through the code in a top-down manner, which feels more intuitive.
+Built-in Error Handling: try/catch blocks handle errors in a more traditional manner, and you can wrap multiple asynchronous calls in a single block.
+Cons:
+Sequential Execution (by Default): When using await, each promise waits for the previous one to resolve. This can result in performance issues when independent asynchronous tasks could be run in parallel.
