@@ -29,3 +29,30 @@ Sequential Flow: You can read through the code in a top-down manner, which feels
 Built-in Error Handling: try/catch blocks handle errors in a more traditional manner, and you can wrap multiple asynchronous calls in a single block.
 Cons:
 Sequential Execution (by Default): When using await, each promise waits for the previous one to resolve. This can result in performance issues when independent asynchronous tasks could be run in parallel.
+
+
+question - what if api return 404 error where it will come either in respnse or error 
+ans - it is come in response we identigy by using conditonal operatorss is is error or not 
+fetch work only is to resolve the api call to the browser 
+
+// the fetch request fullfill first as compare to other promises because 
+in event loop fetch  request has special or more priority callback  queue(microtask queue) as compare to second normal queue 
+
+
+// fetch internal machaenism  has work in two parts  
+1. part one  first reserved the space in the  memory for operations, variables etc
+a. onfulfilled[] - promise resolve
+b. onRejection[] - on promise  rejections
+they arre private and cannot be accessed 
+
+now we have to send the network request than we need help of WebBrowser or Node Environment 
+2. WebBrowser/Native Node to fullfill the requests
+if request fullfilled than it give to onfullfilled memory or inc ase pf rejection it give to on rejection
+
+
+After network request fullfill than it is send to global memory by the help of function avaiables 
+
+
+
+
+ 
