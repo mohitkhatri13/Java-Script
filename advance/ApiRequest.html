@@ -1,0 +1,36 @@
+<!-- // xml http request to call an API   -->
+
+<!-- The XMLHTTPRequest has 5 states 
+1. UNSENT - Clent has been created.open() not called yet mtlv - request ni bheji 
+2. OPENED - open() has been called  // request bhej di 
+3. HEADERS-RECEIVED - send() has been called, and headers and status are avaiable
+4. LOADING - Downloading: responsText holds partial data
+5. DONE - The Operation is complete -->
+
+<!-- NOte - console.log - ise a denugging tool of the browser not from orginally js is is injectes by runtime environment -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const api  = 'https://api.github.com/users/mohitkhatri13'
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET',api)
+    xhr.onreadystatechange = function(){  // is is used to track the 4 states
+        console.log(xhr.readyState);
+    
+    if(xhr.readyState === 4){
+        const data = JSON.parse(this.responseText); // converting data to objects 
+        console.log(this.responseText);
+    }}
+    xhr.send();
+</script>
+</html>
+
