@@ -1,3 +1,9 @@
 1. In js all events run sequentially hence js is sequential language
 but exception are there 
-2.
+
+2. SetTimeout - ek baar execute hota hai time interval ke baad 
+
+3. SetInterval - again and again it run after the time interval 
+
+4. clearTimeout() - isko chahiye reference ko knsa wala settime out aap hatana chahte hai 
+
