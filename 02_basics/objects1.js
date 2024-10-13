@@ -34,3 +34,20 @@ user.greetings2= function(){
 console.log(user.greetings());
 console.log(user.greetings2());
 
+
+
+// difference between singleton and on singleton 
+
+
+/*
+
+Aspect	            Singleton	                                    Non-Singleton
+Instance Count	    Only one instance exists.                       Multiple instances can be created.
+Memory Usage	    Single instance, lower memory overhead.	        More instances, more memory usage.
+Global State	    Shared state across the application.	        Each instance maintains its own state.
+Object Creation  	Controlled, often with lazy initialization.	    Normal object creation with new keyword.
+Use Cases	        Database connections, logging, configurations.	Users, products, or any other entity requiring multiple objects.
+*/
+
+//Singleton: When you want to ensure that there is only one instance of a class throughout the application, especially when dealing with resources that should be shared (e.g., databases, logging).
+//Non-Singleton: When you need multiple instances of a class, each with its own independent state.
