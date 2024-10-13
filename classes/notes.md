@@ -11,8 +11,11 @@ javascript is prototype based language and its classes are just introduced just 
 
 
 ## parts of oops
-
-
+Objects literals
+Constructor function
+Prototypes
+Classes
+Instances (new, this)
 
 
 ## 4 pillars of oops 
